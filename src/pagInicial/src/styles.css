@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  background-color: #688474;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div {
+  display: flex;
+  margin: 10px;
+  padding: 0px;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+
+#retTopo {
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  background: #ebbcbc;
+}
+
+#textoTopo {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 44% */
+  letter-spacing: -1px;
+  margin-left: 20px;
+}
+
+#textoMeio {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -1px;
+  margin: 50px;
+}
+
+.acampamento {
+  display: flex;
+  align-items: center;
+  color: #608573;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 126.667% */
+  letter-spacing: 0.9px;
+  text-transform: capitalize;
+  background: #ebbcbc;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+#fundoFoto {
+  z-index: 1;
+  position: fixed;
+  top: 150px;
+  margin-bottom: -7px; /*Fix for safari gap*/
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
